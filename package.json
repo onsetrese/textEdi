@@ -1,0 +1,17 @@
+{
+  "name": "docedi",
+  "version": "1.0.0",
+  "description": "Collaborative Document Editor",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
